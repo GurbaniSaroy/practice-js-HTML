@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div class="base">
+        <div class="screen" style="display: flex; justify-content: end;">
+            <h1 id="screenTag"></h1>
+            <button style="padding: 0px 12px;" onclick="cal(this.innerHTML)">Clear</button>
+        </div>
+        <div class="keyboard">
+            <div class="row rowDiv">
+                <button class="col-lg" onclick="cal(this.innerHTML)">1</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">2</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">3</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">+</button>
+            </div>
+            <div class="row rowDiv">
+                <button class="col-lg" onclick="cal(this.innerHTML)">4</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">5</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">6</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">-</button>
+            </div>
+            <div class="row rowDiv">
+                <button class="col-lg" onclick="cal(this.innerHTML)">7</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">8</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">9</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">*</button>
+            </div>
+            <div class="row rowDiv">
+                <button class="col-lg" onclick="cal(this.innerHTML)">.</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">0</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">=</button>
+                <button class="col-lg" onclick="cal(this.innerHTML)">/</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
