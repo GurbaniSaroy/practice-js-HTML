@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+}
+div{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+button{
+}
+img{
+    height: 40vw;
+    display: flex;
+    object-fit: cover;
+}
+i{
+    background-color: black;
+    color: white;
+    margin: -8px;
+    font-size: 5vw;
+}
+h1{
+    /* color: aliceblue; */
+}

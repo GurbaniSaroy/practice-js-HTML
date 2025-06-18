@@ -1,0 +1,29 @@
+@font-face {
+    font-family: digitalFont;
+    src: url('digital-7.mono.ttf') format('truetype');
+}
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: end;
+    background-color: goldenrod;
+    padding: 10px;
+}
+main{
+     color: white;
+}
+header button{
+    padding: 5px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 3px;
+}
+h1 {
+    text-align: center;
+    font-size: 10vw;
+    font-family: digitalFont, sans-serif; 
+}
