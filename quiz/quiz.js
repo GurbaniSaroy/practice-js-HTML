@@ -13,8 +13,14 @@ const answers = {
     ans4: 'lion'
 };
 const questions = 4;
+for(i in inputs){
+    inputs[i].disabled = true;
+}
 
 Btn.addEventListener('click', () => {
+    for(j in inputs){
+    inputs[j].disabled = false;
+}
     let i = 10;
     let interval = setInterval(() => {
         timerPara.classList.add('timer');
