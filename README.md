@@ -32,7 +32,7 @@ Some projects are still in progress and will be completed soon. And yes — more
 <br>
 <hr>
 <h3>📚 Full JavaScript Reference:<br></h3>
-For a comprehensive guide to JavaScript, including topic explanations and code snippets, feel free to explore the [SIGMA-WEB-DEV](https://github.com/GurbaniSaroy/SIGMA-WEB-DEV) directory in my GitHub repository.
+For a comprehensive guide to JavaScript, including topic explanations and code snippets, feel free to explore the <a href='https://github.com/GurbaniSaroy/SIGMA-WEB-DEV' target="_blank">SIGMA-WEB-DEV</a> directory in my GitHub repository.
 <br><br>
 Happy coding!<br>
 Gurbani Saroy✨
