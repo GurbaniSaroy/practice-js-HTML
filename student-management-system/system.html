@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+</head>
+
+<body>
+    <style>
+        * {
+            text-align: center;
+        }
+
+        #container {
+            margin-top: 20px;
+        }
+    </style>
+    <button id="addBtn">Add a Student</button>
+    <div id="container">
+        <input type="text" placeholder="Enter name" id="nameText" />
+        <div id="scoreDiv">
+            <h3>Enter all the scores</h3>
+            <input type="number" placeholder="Physics" id="phyScore" />
+            <input type="number" placeholder="Chemistry" id="chemScore" />
+            <input type="number" placeholder="Maths" id="mathsScore" />
+        </div>
+        <button id="btn">Submit</button>
+        <button id="stop">Stop</button>
+    </div>
+    <div id="main">
+        <p id="para"></p>
+        <p id="para2"></p>
+        <p id="para3"></p>
+        <h2 id="result"></h2>
+    </div>
+    <script src="system.js"></script>
+</body>
+
+</html>

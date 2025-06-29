@@ -1,8 +1,12 @@
 *{
-    text-align: center;
-    margin: auto;
+    margin: 0;
 }
-
-h1{
-    
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+#instructions{
+}
+#heading{
+    margin: auto;
 }

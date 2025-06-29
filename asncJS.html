@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // ----- aysc and await--------------
+        function response() {
+            console.log("welcome");
+        }
+        const f = async () => {
+            let result = await response();
+            console.log(result);
+        }
+        f();
+
+        // ------ promises ------------------
+        // const myPromise = new Promise((resolve, reject)=>{
+        //     resolve(`printing resolve`);
+        // });
+        // myPromise.then(console.log());
+    </script>
+</body>
+
+</html>
