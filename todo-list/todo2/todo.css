@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(#2047a5, #4a2fb4);
+    background-repeat: no-repeat;
+}
+
+#div {
+    width: 40%;
+    margin: auto;
+    background-color: rgba(192, 189, 189, 0.5);
+    height: 100%;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+#input {
+    width: 70%;
+    padding: 8px 0;
+    font-size: 18px;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    outline: none;
+}
+
+#list{
+    list-style-type: none;
+}
+#input::placeholder {
+    color: white;
+}
+
+#addBtn:hover {
+    transform: scale(1.1);
+    transition: ease-in-out;
+    background-color: #9fa0a1;
+}
+
+#addValue {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header h1 {
+    text-align: center;
+}
+
+.btn {
+    width: 15%;
+    padding: 5px;
+}
+
+/* ---- for dynamic functionality ------------------ */
+.wrapperContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subDiv1 {
+    width: 90%;
+    text-align: left;
+
+}
+
+.subDiv2 {
+    width: 20%;
+}
+
+.items{
+    padding: 2px;
+    list-style-type: none;
+}
